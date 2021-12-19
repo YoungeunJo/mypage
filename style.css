@@ -1,0 +1,234 @@
+
+
+body{
+    background-color: #EFE7E3;
+}
+
+.frame{
+    margin: 30px 150px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+/*navigator*/
+
+.navigator{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+li{
+    display: inline;
+    align-self: center;
+    margin:0;
+    margin-left: 15px;
+}
+
+ul{
+    margin:0;
+}
+
+.site-name{
+    margin:0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    color: #C2B4AB;
+}
+
+.nav-menu{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+a:hover{
+    color: white;
+    transition: 0.3s;
+}
+
+
+/*dashboard*/
+
+
+.dashboard{
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    margin-bottom: 70px;
+}
+
+.korean-comment{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 500;
+    font-size: 50px;
+}
+
+.sample{
+    background-color: pink;
+    -webkit-text-stroke: 1px black;
+}
+
+.sample:hover{
+    background-color: transparent;
+    color: white;
+    -webkit-text-stroke: 1px black;
+    transition: none;
+}
+
+.highlight{
+    color: white;
+    -webkit-text-stroke: 1px black;
+}
+
+.highlight:hover{
+    background-color: pink;
+    color: black;
+    transition: none;
+}
+
+.type1:hover{
+    background-color: yellowgreen;
+}
+
+.type2:hover{
+    background-color: skyblue;
+}
+
+.type3:hover{
+    background-color: orange;
+}
+
+.english-comment{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 100;
+    font-size: 15px;
+    font-style: italic;
+
+    letter-spacing: -0.3px;
+}
+
+
+/*about-me*/
+
+.about-me{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    color: #C2B4AB;
+    
+    text-align: center;
+    margin-top: 100px;
+}
+
+
+
+/*footer*/
+
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 200px;
+}
+
+.footer-title{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    color: black;
+    margin-bottom: 10px;
+    border-bottom: 2px solid black;
+}
+
+.links>a{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    margin-left: 15px;
+}
+
+.footer>p{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 100;
+    font-size: 15px;
+    margin: 0;
+    margin-top: 5px;
+}
+
+
+
+
+/* INFO Section*/
+
+
+/*profile-section*/
+
+.profile-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 10px 10px;
+}
+.introduction{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+#profile-picture{
+    width: 300px;
+    border-radius: 50%;
+    outline : solid 5px white;
+}
+
+.introduction>h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+}
+
+.introduction>p{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+#capability{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+
+/*footer section*/
+
+.footer-comment{
+    text-align: center;
+}
+
+.footer>h5{
+    font-size: 25px;
+}
+a[title="Freepik"]:hover{
+    color: black;
+    text-decoration: underline;
+}
+
+a[title="Flaticon"]:hover{
+    color: black;
+    text-decoration: underline;
+}
+
+
